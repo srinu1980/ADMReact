@@ -1,0 +1,8 @@
+Help in Notepad
+Applies To
+To open Notepad, select the Start  button, type Notepad, then select Notepad from the results.
+
+Here are answers to a few common questions about Notepad:
+
+How do I change header and footer in Notepad?
+How do I use Notepad to create a log file?
