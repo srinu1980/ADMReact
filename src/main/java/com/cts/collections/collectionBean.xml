@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+<bean id="myBean"  class="com.cts.collections.Emp">
+
+<property name="name">
+<value>Sourav</value>
+</property>
+
+<property name="phones">
+
+	<list>
+	<value>9247660740</value>
+	<value>9647680720</value>
+	<value>9747660730</value>
+	<value>9847660790</value>
+	<value>9947660750</value>
+	<value>9747660730</value>
+	<value>9847660790</value>
+	<value>9947660750</value>
+	
+	
+	
+	</list>
+
+</property>
+
+<property name="address">
+
+	<set>
+	
+		<value>Hyderabad</value>
+		<value>Chennai</value>
+		<value>Pune</value>
+		<value>Kalkata</value>
+		<value>Chennai</value>
+		<value>Pune</value>
+		<value>Kalkata</value>
+		
+	</set>
+	
+	</property>
+	
+	
+	<property name="courses">
+	
+	<map>
+	
+	<entry key="Angular"  value="2 Months"/>
+	<entry key="React"  value="2 Months"/>
+	<entry key="Java"  value="1 Month"/>
+	<entry key="Oracle"  value="1 Month"/>
+	
+	</map>
+	</property>
+	
+</bean>
+
+
+
+
+   </beans>
